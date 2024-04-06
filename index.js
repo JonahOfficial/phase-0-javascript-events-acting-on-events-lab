@@ -1,4 +1,4 @@
-const dodger = document.getElementById("dodger");
+const dodger = document.getElementById("dodger")
 
 function moveDodgerLeft() {
   const leftNumbers = dodger.style.left.replace("px", "")
@@ -13,7 +13,7 @@ document.addEventListener("keydown", function (e) {
   if (e.key === "ArrowLeft") {
     moveDodgerLeft()
   }
-});
+})
 
 function moveDodgerRight() {
   const rightNumbers = dodger.style.left.replace("px", "")
@@ -28,4 +28,4 @@ document.addEventListener("keydown", (event) => {
   if (event.key === "ArrowRight") {
     moveDodgerRight()
   }
-});
+})
